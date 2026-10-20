@@ -1,0 +1,32 @@
+# Environment / secrets
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RAG generated data / indexes
+data/
+uploads/
+faiss_index/
+*.faiss
+*.index
+
+# Logs
+*.log
+
+# Cache
+.cache/
+vectorstore/index/
